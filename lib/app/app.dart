@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
       title: 'Scanner App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.red, useMaterial3: true),
-      home: HomeScreen(),
+      // home: HomeScreen(),
+      home: ScannerScreen(),
     );
   }
 }
